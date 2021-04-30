@@ -1,0 +1,18 @@
+[package]
+name = "serde-parquet"
+version = "0.1.0"
+authors = ["Ali Shariat <shariat@gmail.com>"]
+license = "MIT"
+description = "An Serializer and Deserializer for parquet data format using Serde"
+repository = "https://github.com/ali5h/serde-parquet"
+keywords = ["serde", "parquet"]
+categories = ["encoding"]
+edition = "2018"
+publish = false
+
+[dependencies]
+serde = "1.0"
+parquet = "4.0.0"
+
+[dev-dependencies]
+serde_derive = "1.0"
